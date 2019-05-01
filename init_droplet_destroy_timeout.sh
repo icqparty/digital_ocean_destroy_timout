@@ -8,7 +8,7 @@ TIMEOUT_DROPLET_DESTROY=${TIMEOUT_DROPLET_DESTROY:-"3600"}
 
 printf "Delay destroy ${TIMEOUT_DROPLET_DESTROY}\n"
 
-sleep ${TIMEOUT_DROPLET_DESTROY}ls
+sleep ${TIMEOUT_DROPLET_DESTROY}
 
 printf "init droplet destroy\n"
 
