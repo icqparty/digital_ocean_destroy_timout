@@ -5,11 +5,11 @@
 
 **Устанавливаем переменные окружения для скрипта**
 
-`export TIMEOUT_DROPLET_DESTROY="10800"` - время жизни Droplet в секундах по умолчанию 3600 секунд (1 час)
+`# export TIMEOUT_DROPLET_DESTROY="10800"` - время жизни Droplet в секундах по умолчанию 3600 секунд (1 час)
 
-`export NAME_TAG_DROPLET="develop_tag"` - тег Droplet который нужно уничтожить
+`# export NAME_TAG_DROPLET="develop_tag"` - тег Droplet который нужно уничтожить
 
-`export TOKEN_DIGITAL_OCEAN="token api"` - токен Api Ocean Digital
+`# export TOKEN_DIGITAL_OCEAN="token api"` - токен Api Ocean Digital
 
 
 **Запускаем скрипт**
