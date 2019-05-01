@@ -9,7 +9,7 @@
 
 **Устанавливаем переменные окружения для скрипта и команду в User Data**
 
-`$ export TIMEOUT_DROPLET_DESTROY="10800"` - время жизни Droplet в секундах по умолчанию 3600 секунд (1 час)
+`$ export TIMEOUT_DROPLET_DESTROY="10800"` - время жизни Droplet в секундах по умолчанию **3600** секунд (1 час)
 
 `$ export NAME_TAG_DROPLET="develop_tag"` - тег Droplet который нужно уничтожить
 
