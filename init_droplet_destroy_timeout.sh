@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
 
-#export NAME_TAG_DROPLET="developer"
-#export TOKEN_DIGITAL_OCEAN="token api"
+NAME_TAG_DROPLET=${TOKEN_DIGITAL_OCEAN:""}
+NAME_TAG_DROPLET=${NAME_TAG_DROPLET:""}
+TIMEOUT_DROPLET_DESTROY=${TIMEOUT_DROPLET_DESTROY:"3600"}
 
 
 nohup
 
-sleep 10800
+sleep ${TIMEOUT_DROPLET_DESTROY}
 
 printf "init droplet destroy\n"
 

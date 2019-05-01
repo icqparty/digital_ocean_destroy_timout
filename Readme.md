@@ -1,10 +1,17 @@
 
 
-export TIMEOUT_DROPLET="10800"
-export NAME_TAG_DROPLET="developer"
-export TOKEN_DIGITAL_OCEAN="token api"
+**Устанавливаем переменные окружения для скрипта**
+
+`export TIMEOUT_DROPLET_DESTROY="10800"` - время жизни Droplet в секундах
+
+`export NAME_TAG_DROPLET="developer"` - тег Droplet который нужно уничтожить
+
+`export TOKEN_DIGITAL_OCEAN="token api"` - токен Api OceanDigital
 
 
-chmod +x  init_droplet.sh
+**Запускаем скрипт**
 
-./init_droplet_destroy_timeout.sh
+
+`# chmod +x  init_droplet.sh`
+
+`# ./init_droplet_destroy_timeout.sh`
