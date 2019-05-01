@@ -17,3 +17,4 @@ time curl -X DELETE -H "Content-Type: application/json" \
                      "https://api.digitalocean.com/v2/droplets?tag_name=${NAME_TAG_DROPLET}"
 
 printf "\nno destroed\n"
+
