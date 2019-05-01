@@ -16,4 +16,7 @@ curl -X DELETE -H "Content-Type: application/json" \
                      -H "Authorization: Bearer ${TOKEN_DIGITAL_OCEAN}" \
                      "https://api.digitalocean.com/v2/droplets?tag_name=${NAME_TAG_DROPLET}"
 
+
+sleep 30
+
 printf "\nno destroed\n"
