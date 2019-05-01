@@ -19,4 +19,4 @@ curl -X DELETE -H "Content-Type: application/json" \
 
 sleep 30
 
-printf "\nno destroed\n"
+printf "\nn o destroed\n"
